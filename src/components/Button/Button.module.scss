@@ -1,0 +1,43 @@
+.button {
+  padding: 0 1.5rem;
+  font-family: var(--family);
+  font-weight: var(--fw-bold);
+  line-height: 2.5;
+  border: none;
+  border-radius: var(--radii);
+  background-color: var(--primary-300);
+  color: white;
+  cursor: pointer;
+
+  transition: ease-in-out 350ms;
+
+  &:hover {
+    background-color: var(--primary-100);
+  }
+}
+
+.link {
+  color: var(--gray-300);
+  background-color: transparent;
+
+  &:hover {
+    color: var(--gray-900);
+    background-color: transparent;
+  }
+}
+
+// sizes
+.medium {
+  line-height: 2.75;
+  padding: 0 2.5rem;
+}
+
+.large {
+  line-height: 3.5;
+  padding: 0 2.5rem;
+}
+
+// variants
+.square {
+  border-radius: var(--radii-sm);
+}
